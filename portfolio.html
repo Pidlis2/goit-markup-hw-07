@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>WEBStudio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <a class="logo link" href="./index.html"
+          ><span class="part_logo">Web</span>Studio</a
+        >
+
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link active" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contact-inf-list list">
+          <li class="contact-inf-item">
+            <a class="mail-inf-link link" href="mailto:info@devstudio.com">
+              <svg class="contact-inf__icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope-hover-1"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-inf-item">
+            <a class="tel-inf-link link" href="tel:+380961111111">
+              <svg class="contact-inf__icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone-1"></use>
+              </svg>
+              +380961111111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section-portfolio">
+        <div class="container">
+          <ul class="products-buttons-list list">
+            <li class="products-buttons-item">
+              <button class="products-button" type="button">Все</button>
+            </li>
+            <li class="products-buttons-item">
+              <button class="products-button" type="button">Веб-сайты</button>
+            </li>
+            <li class="products-buttons-item">
+              <button class="products-button" type="button">Приложения</button>
+            </li>
+            <li class="products-buttons-item">
+              <button class="products-button" type="button">Дизайн</button>
+            </li>
+            <li class="products-buttons-item">
+              <button class="products-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container">
+          <h1 class="product-card-title"><!--hidenTitle--></h1>
+
+          <ul class="products-card-list list">
+            <li class="products-card-item">
+
+                <div class="products-card__img-wrap">
+                  <img
+                    class="products-card"
+                    src="./images/portfolio_img/tehnokryak.jpg"
+                    alt="технокряк"
+                  />
+                  <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                  <div class="product-card-wrap">
+                    <h2 class="product-card-name">Технокряк</h2>
+                    <p class="product-card-description card-description">
+                      Веб-сайт
+                    </p>
+                  </div>
+              </a>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/new_orlean.jpg"
+                alt="новый орлеан"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="product-card-description card-description">Дизайн</p>
+              </div>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/seafood.jpg"
+                alt="ресторан сеафуд"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Ресторан Seafood</h2>
+                <p class="product-card-description card-description">
+                  Приложение
+                </p>
+              </div>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/prime.jpg"
+                alt="Проект Prime"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Проект Prime</h2>
+                <p class="product-card-description card-description">
+                  Маркетинг
+                </p>
+              </div>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/boxes.jpg"
+                alt="Проект Boxes"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Проект Boxes</h2>
+                <p class="product-card-description card-description">
+                  Приложение
+                </p>
+              </div>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/inspiration.jpg"
+                alt="Inspiration has no Borders"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Inspiration has no Borders</h2>
+                <p class="product-card-description card-description">
+                  Веб-сайт
+                </p>
+              </div>
+            </li>
+
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/izdanie.jpg"
+                alt="Издание Limited Edition"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Издание Limited Edition</h2>
+                <p class="product-card-description card-description">Дизайн</p>
+              </div>
+            </li>
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/lab.jpg"
+                alt="Проект LAB"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Проект LAB</h2>
+                <p class="product-card-description card-description">
+                  Маркетинг
+                </p>
+              </div>
+            </li>
+            <li class="products-card-item">
+              <div class="products-card__img-wrap">
+              <img
+                class="products-card"
+                src="./images/portfolio_img/growning.jpg"
+                alt="Growing Business"
+              />
+              <p class="card-overlay">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+              </div>
+              <div class="product-card-wrap">
+                <h2 class="product-card-name">Growing Business</h2>
+                <p class="product-card-description card-description">
+                  Приложение
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div>
+          <a class="logo-dark-theme logo link" href="./index.html"
+            ><span class="part_logo">Web</span>Studio</a
+          >
+
+          <address class="adress-section">
+            <p class="adress_description">г. Киев, пр-т Леси Украинки, 26</p>
+          </address>
+          <ul class="list">
+            <li>
+              <a
+                class="mail-inf-link_dark link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="tel-inf-link_dark link" href="tel:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="join-us__box">
+          <h2 class="join-us__box-title">присоединяйтесь</h2>
+          <ul class="join-us__list list">
+            <li class="loin-us__item">
+              <a href="" class="join-us__link social-link">
+                <svg width="20" height="20" class="join-us__icon">
+                  <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="loin-us__item">
+              <a href="" class="join-us__link social-link">
+                <svg width="20" height="20" class="join-us__icon">
+                  <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="loin-us__item">
+              <a href="" class="join-us__link social-link">
+                <svg width="20" height="20" class="join-us__icon">
+                  <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="loin-us__item">
+              <a href="" class="join-us__link social-link">
+                <svg width="20" height="20" class="join-us__icon">
+                  <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+          <div class="subscribe-box">
+
+            <p class="subscribe-box__title join-us__box-title">Подпишитесь на рассылку</p>
+             <input class="subscribe-box__input"  type="email" placeholder="E-mail">
+              <button class="subscribe-box__button order-button" type="button">Подписаться
+                <svg height="24" width="24" class="subscribe-box__button-icon">
+                  <use href="./images/sprite.svg#telegram"></use>
+                </svg>
+              </button>
+
+          </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden " data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close type="button">
+          <svg height="18" width="18" class="close-btn-icon">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form class="contact-form">
+
+          <p class="contact-form__title">Оставьте свои данные, мы вам перезвоним</p>
+          
+           <label for="" class="contact-form-field">
+              Имя
+              <span class="contact-form-input__wrapper">
+                <input type="text" name="user-name"
+                 class="contact-form-input" required minlength="3"> 
+                      <svg class="contact-form__input-icon" height="18" width="18">
+                        <use href="./images/sprite.svg#icon-person"></use></svg>
+              </span>
+           </label>
+          
+           <label class="contact-form-field">
+              Телефон
+              <span class="contact-form-input__wrapper">
+                <input type="user-tel" name="tel"
+                 class="contact-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+                      <svg class="contact-form__input-icon" height="18" width="18">
+                        <use href="./images/sprite.svg#icon-phone1"></use></svg>
+              </span>
+            </label>
+
+           <label class="contact-form-field">
+              Почта
+              <span class="contact-form-input__wrapper">
+                <input type="user-email" name="email"
+                 class="contact-form-input">
+                      <svg class="contact-form__input-icon" height="18" width="18">
+                        <use href="./images/sprite.svg#icon-email1"></use></svg>
+              </span>
+            </label>
+
+          <label class="contact-form-field">Комментарий<textarea 
+            class="contact-form-input" name="user-coment" 
+            placeholder="Введите текст">
+             </textarea>
+          </label>  
+
+          <div class="contact-form__acept-wrapper">
+          <input id="user-acept" type="checkbox" class="checkbox-input visually-hidden" value="user-acept"required>
+          <label for="user-acept" class="contact-form__acept-checkbox">
+            <p class="our-work-description">Соглашаюсь с рассылкой и принимаю&nbsp;&nbsp;</p>
+             <a href="">Условия договора</a>
+            </label>
+          </div>
+          <button type="submit" class="form-send__btn order-button">Отправить</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
