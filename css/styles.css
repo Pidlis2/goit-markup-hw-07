@@ -1,70 +1,7 @@
-:root {
-  /*======fontsVariable=====*/
-  --main_font-weight: 400;
-  --secondary_font-weight: 700;
-  --third_font-weight: 500;
-  --main_font-size: 14px;
-  --secondary_font-size: 16px;
-  /*=======================*/
 
-  /*====colorPalette=======*/
-  --first_color-txt: #212121;
-  --secondary_color-txt: #757575;
-  --third_color-txt: #ffffff;
-  --first-bg-color: #2f303a;
-  --secondary-bg-color: #f5f4fa;
-  --button-accent-color: #2196f3;
-  
-  /*========================*/
-
-/*=======margins and paddings===*/
-   --main-retreat: 94px;
-   --first-retreat: 50px;
-   --seсondary-retreat: 30px;
-   --portolio-card-margin: 20px;
-  
-  }
 /*========reset===========*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h5,
-p {
-  margin: 0;
-}
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-img {
-  display: block;
-}
-a {
-  display: block;
-}
-address {
-  font-style: normal;
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-}
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
+
+
 /*=====end reset==========*/
 
 /*======components=========*/
@@ -81,24 +18,15 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.hero-section .container,
+.hero-section,
 .accent-title,
 .specialsts-card {
   text-align: center;
 }
 
-body {
-  font-family: 'roboto', sans-serif;
-  color: var(--first_color-txt);
-}
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
- 
-}
+
+
 .our-team-section,
 .our-work-section,
 .our-clients-section {
@@ -137,35 +65,8 @@ outline: none;
 .join-us__link:focus{
 fill: var(--third_color-txt);
 }
-.nav-link::after{
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--button-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
-  transform: scaleY(0);
-transition: transform 500ms;
-}
-.nav-link:focus::after,
-.nav-link:hover::after{
-  transform: scaleY(1);
-}
-.active:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--button-accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
-  transform: scale(1);
-}
+
+
 
 /*=========logo==========*/
 .logo {
@@ -262,6 +163,35 @@ header {
   fill:var(--secondary_color-txt);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+}.nav-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--button-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  transform: scaleY(0);
+  transition: transform 500ms;
+}
+.nav-link:focus::after,
+.nav-link:hover::after {
+  transform: scaleY(1);
+}
+
+.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--button-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  transform: scale(1);
 }
   
 
