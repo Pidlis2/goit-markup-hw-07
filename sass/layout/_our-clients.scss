@@ -1,0 +1,20 @@
+.our-clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-clients__link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-clients-item {
+    fill: #AFB1B8;
+}
