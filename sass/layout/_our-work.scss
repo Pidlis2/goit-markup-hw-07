@@ -36,8 +36,7 @@
     border-radius: 4px;
     margin-bottom: var(--seсondary-retreat);
     padding: 25px 100px;
-}
-
-.our-work__svg-wrap:not(:first-child) {
-    margin-left: var(--seсondary-retreat);
+    &:not(:first-child) {
+        margin-left: var(--seсondary-retreat);
+    }
 }

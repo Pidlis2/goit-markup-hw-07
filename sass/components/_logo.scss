@@ -4,13 +4,14 @@
     font-weight: var(--secondary_font-weight);
     font-size: 26px;
     line-height: 1.19;
-    margin-right: var(--main-retreat)
+    margin-right: var(--main-retreat);
+}
+.part_logo {
+        color: var(--button-accent-color);
 }
 
-.part_logo {
-    color: var(--button-accent-color);
-}
 
 .logo-dark-theme {
     color: var(--third_color-txt);
+    margin-bottom: 20px;
 }
