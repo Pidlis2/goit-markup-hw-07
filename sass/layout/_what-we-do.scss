@@ -1,23 +1,23 @@
-.what-we-do-section {
+.what-we-do {
     padding-bottom: var(--main-retreat);
 }
 
-.what-we-do_img-list {
+.what-we-do__product-cat {
 
     display: flex;
     margin-left: -30px;
 
 }
 
-.what-we-do-item {
+.what-we-do__product-item {
     position: relative;
-    margin-left: var(--seсondary-retreat);
+    margin-left: var(--secondary-retreat);
     flex-basis: calc(100% / 3 - 30px);
 }
 
 
 
-.what-we-do_description {
+.what-we-do__product-description {
     position: absolute;
     width: 370px;
     height: 70px;

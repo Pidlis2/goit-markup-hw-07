@@ -38,17 +38,16 @@ body {
     font-family: 'roboto', sans-serif;
     color: var(--first_color-txt);
 }
-.hero-section,
+.hero,
 .accent-title,
 .specialsts-card,
-.hero-section .container,
-.what-we-do-section .container {
+.what-we-do .container {
     text-align: center;
 }
 
-.our-team-section,
-.our-work-section,
-.our-clients-section {
+.our-team,
+.our-work,
+.our-clients{
     padding-top: var(--main-retreat);
     padding-bottom: var(--main-retreat);
 }

@@ -26,34 +26,39 @@
     <header>
       <div class="container">
         <a class="logo link" href="./index.html"
-          ><span class="part_logo">Web</span>Studio</a
+          ><span class="logo__part">Web</span>Studio</a
         >
 
         <nav class="nav">
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="nav-link link active" href="./index.html">Студия</a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link nav__active" href="./index.html"
+                >Студия</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="contact-inf-list list">
-          <li class="contact-inf-item">
-            <a class="mail-inf-link link" href="mailto:info@devstudio.com">
+        <ul class="contact-inf list">
+          <li class="contact-inf__item">
+            <a
+              class="contact-inf__link contact-inf__link--email-retreat link"
+              href="mailto:info@devstudio.com"
+            >
               <svg class="contact-inf__icon" width="16" height="12">
                 <use href="./images/sprite.svg#icon-envelope-hover-1"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-inf-item">
-            <a class="tel-inf-link link" href="tel:+380961111111">
+          <li class="contact-inf__item">
+            <a class="contact-inf__link link" href="tel:+380961111111">
               <svg class="contact-inf__icon" width="10" height="16">
                 <use href="./images/sprite.svg#icon-smartphone-1"></use>
               </svg>
@@ -67,11 +72,11 @@
     <main>
       <!--hero-->
 
-      <section class="hero-section">
+      <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
 
-          <button class="order-button" data-modal-open type="button">
+          <button class="accent-button" data-modal-open type="button">
             Заказать услугу
           </button>
         </div>
@@ -81,7 +86,7 @@
 
       <!--ourWork-->
 
-      <section class="our-work-section">
+      <section class="our-work">
         <div class="container">
           <h2 class="visually-hidden"></h2>
 
@@ -108,38 +113,40 @@
             </li>
           </ul>
 
-          <ul class="our-work list">
-            <li class="our-work-item">
-              <h3 class="our-work-description_title">Внимание к деталям</h3>
+          <ul class="our-work__list-info list">
+            <li class="our-work__item-info">
+              <h3 class="our-work__description-title">Внимание к деталям</h3>
 
-              <p class="our-work-description">
+              <p class="our-work__description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
 
-            <li class="our-work-item">
-              <h3 class="our-work-description_title">Пунктуальность</h3>
+            <li class="our-work__item-info">
+              <h3 class="our-work__description-title">Пунктуальность</h3>
 
-              <p class="our-work-description">
+              <p class="our-work__description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
 
-            <li class="our-work-item">
-              <h3 class="our-work-description_title">Планирование</h3>
+            <li class="our-work__item-info">
+              <h3 class="our-work__description-title">Планирование</h3>
 
-              <p class="our-work-description">
+              <p class="our-work__description">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
 
-            <li class="our-work-item">
-              <h3 class="our-work-description_title">Современные технологии</h3>
+            <li class="our-work__item-info">
+              <h3 class="our-work__description-title">
+                Современные технологии
+              </h3>
 
-              <p class="our-work-description">
+              <p class="our-work__description">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -151,43 +158,43 @@
       <!--EndOurWork-->
 
       <!--WhatWeDo-->
-      <section class="what-we-do-section">
+      <section class="what-we-do">
         <div class="container">
-          <h2 class="what-we-do_titile accent-title">Чем мы занимаемся</h2>
+          <h2 class="what-we-do__titile accent-title">Чем мы занимаемся</h2>
 
-          <ul class="what-we-do_img-list list">
-            <li class="what-we-do-item">
+          <ul class="what-we-do__product-cat list">
+            <li class="what-we-do__product-item">
               <img
                 width="370"
                 height="294"
                 src="./images/work/work1.jpg"
                 alt="Создание проекта"
               />
-              <p class="what-we-do_description module-subtitle">
+              <p class="what-we-do__product-description module-subtitle">
                 Десктопные приложения
               </p>
             </li>
 
-            <li class="what-we-do-item">
+            <li class="what-we-do__product-item">
               <img
                 width="370"
                 height="294"
                 src="./images/work/work2.jpg"
                 alt="Оптимизация проекта"
               />
-              <p class="what-we-do_description module-subtitle">
+              <p class="what-we-do__product-description module-subtitle">
                 Мобильные приложения
               </p>
             </li>
 
-            <li class="what-we-do-item">
+            <li class="what-we-do__product-item">
               <img
                 width="370"
                 height="294"
                 src="./images/work/work3.jpg"
                 alt="Индивидуальный подход к проекту"
               />
-              <p class="module-subtitle what-we-do_description">
+              <p class="module-subtitle what-we-do__product-description">
                 Дизайнерские решения
               </p>
             </li>
@@ -198,9 +205,9 @@
 
       <!--ourTeam-->
 
-      <section class="our-team-section">
+      <section class="our-team">
         <div class="container">
-          <h2 class="our-team-title accent-title">Наша команда</h2>
+          <h2 class="our-team__title accent-title">Наша команда</h2>
 
           <ul class="specialists-list list">
             <li class="specialists-item">
@@ -444,7 +451,7 @@
     <footer class="footer-section">
       <div class="container">
         <div>
-          <a class="logo-dark-theme logo link" href="./index.html"
+          <a class="logo--dark-theme logo link" href="./index.html"
             ><span class="part_logo">Web</span>Studio</a
           >
 
@@ -592,7 +599,7 @@
             />
             <label
               for="user-acept"
-              class="contact-form__acept-checkbox our-work-description"
+              class="contact-form__acept-checkbox our-work__description"
             >
               <span class="contact-form__accept-description">
                 Соглашаюсь с рассылкой и принимаю&nbsp;&nbsp;</span
