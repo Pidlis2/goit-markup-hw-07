@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.social-link {
+.social-list__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -20,7 +20,7 @@
     }
 }
 
-.social-icon {
+.social-list__icon{
     fill: #AFB1B8;
     .social-link:hover &,
     .social-link:focus & {

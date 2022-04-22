@@ -9,29 +9,23 @@
 
 
 
-.adress_description {
+.adress-section__full-info {
     color: var(--third_color-txt);
     font-size: var(--main_font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-bottom: 9px;
 }
-
-
-.mail-inf-link_dark {
-    margin-bottom: 9px;
-
-    .tel-inf-link_dark {
+.adress-section__connection-link{
         color: rgba(255, 255, 255, 0.6);
         font-size: var(--main_font-size);
         line-height: 1.71;
         letter-spacing: 0.03em;
-    }
-
+    
 }
-
-
-
+.adress-section__connection-item:not(:last-child){
+    margin-bottom: 9px;
+}
 .join-us__box {
     width: 206px;
     height: 80px;
@@ -58,6 +52,13 @@
 .subscribe-box {
     margin-left: auto
 }
+.subscribe-box__title{
+    margin-bottom: var(--portolio-card-margin);
+}
+.subscribe-box__subcat-box{
+    display: flex;
+    align-items: flex-end;
+}
 .subscribe-box__input {
     font-size: var(--secondary_font-size);
     line-height: 1.25;
@@ -66,7 +67,6 @@
     padding-top: 18px;
     padding-bottom: 12px;
     padding-left: 16px;
-    margin-top: 17px;
     margin-right: 12px;
     width: 358px;
     height: 50px;
@@ -82,7 +82,7 @@
     position: relative;
     padding: 10px 28px;
     text-align: left;
-
+    
 }
 
 .subscribe-box__button-icon {
